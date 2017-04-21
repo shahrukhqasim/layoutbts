@@ -4,6 +4,9 @@
 
 #include "helper.h"
 
+#include "matplotlib-cpp/matplotlibcpp.h"
+namespace plt = matplotlibcpp;
+
 void helper::plotRect(cv::Mat &image,vector<cv::Rect> boxes){
 
     for(int i=0; i<boxes.size(); i++){

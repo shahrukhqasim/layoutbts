@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.5)
 project(layoutbts)
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
-
+link_directories(/usr/local/lib/ /usr/lib/)
 
 include_directories(/usr/local/include matplotlib-cpp)
 

@@ -11,12 +11,10 @@
 #include "opencv2/highgui/highgui_c.h"
 #include <opencv2/opencv.hpp>
 #include <opencv2/core.hpp>
-#include "matplotlib-cpp/matplotlibcpp.h"
 
 using namespace std;
 using namespace cv;
 
-namespace plt = matplotlibcpp;
 
 
 class helper {
